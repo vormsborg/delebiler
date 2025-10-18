@@ -1,0 +1,77 @@
+[
+    {   "firma" : "Kinto",
+        "price_model" : "kinto_model",
+        "biler" : [
+            {
+                "model"       : "lille bil",
+                "pris_pr_time" : 49,
+                "pris_pr_dgn"  : 499,
+                "pris_pr_uge"  : 2499,
+                "pris_pr_km"   : 2
+            },
+            {
+                "model"       : "mellem bil",
+                "pris_pr_time" : 79,
+                "pris_pr_dgn"  : 899,
+                "pris_pr_uge"  : 4399,
+                "pris_pr_km"   : 2
+            }
+        ]
+    },
+    {   "firma" : "Hyre",
+        "price_model" : "hyre_model",
+        "biler" : [
+            {
+                "model"       : "lille bil",
+                "pris_pr_time" : 69,
+                "pris_pr_dgn"  : 449,
+                "pris_pr_uge"  : 3143,
+                "pris_pr_km"   : 2,
+                "braendstof_pr_km" : 0.8,
+                "gratis_km_pr_dgn" : 100
+            },
+            {
+                "model"       : "mellem bil",
+                "pris_pr_time" : 89,
+                "pris_pr_dgn"  : 599,
+                "pris_pr_uge"  : 4193,
+                "pris_pr_km"   : 2,
+                "braendstof_pr_km" : 0.8,
+                "gratis_km_pr_dgn" : 100
+            }
+        ]
+    },
+    {
+        "firma" : "LetsGo",
+        "biler" : [
+            {
+                "model"       : "lille bil",
+                "pris_pr_time" : 70,
+                "pris_pr_dgn"  : 590,
+                "pris_pr_uge"  : 2595,
+                "pris_pr_km"   : 1.5,
+                "bestillingsgebyr" : 25
+            },
+            {
+                "model"       : "mellem bil",
+                "pris_pr_time" : 90,
+                "pris_pr_dgn"  : 680,
+                "pris_pr_uge"  : 3195,
+                "pris_pr_km"   : 1.5,
+                "bestillingsgebyr" : 25
+            }
+        ]
+    },
+    {
+        "firma" : "Nordsjaellands Delebiler",
+        "biler" : [
+            {
+                "model"                       : "Tesla 3",
+                "pris_pr_time"                : 20,
+                "pris_pr_km"                  : 3.85,
+                "pris_pr_time_efter_12_timer" : 10,
+                "pris_pr_km_efter_100_km"     : 3.3
+            }
+        ]
+    }
+]
