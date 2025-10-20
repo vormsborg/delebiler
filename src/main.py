@@ -115,7 +115,7 @@ for result in results_list:
     df = pd.concat([df, pd.DataFrame.from_dict(result.__dict__, orient='index').T])
 
 with st.expander('Data Tabular'):
-    df
+    st.write(df.reset_index().drop(columns=['index']))
 
 #%% PLOTTING
 
