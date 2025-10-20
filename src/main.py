@@ -23,9 +23,9 @@ with open(DATA_PATH, 'r') as json_file:
 
 #%% USER INPUT
 with st.sidebar:
-    hours = st.slider('timer', 0, 24)
+    hours = st.slider('timer', 0, 23)
     km    = st.number_input('km', step = 1)
-    days  = st.number_input('dage', step = 1)
+    days  = st.slider('dage', 0, 6)
     weeks  = st.number_input('uger', step = 1)
 
 
