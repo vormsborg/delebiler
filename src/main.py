@@ -16,7 +16,7 @@ sys.path.append(str(PROJECT_DIR))
 
 import scripts.pricing_models as pm
 
-
+st.header("OBS. Under udvikling - Priser ikke opdaterede.")
 #%% LOAD DATA
 with open(DATA_PATH, 'r') as json_file:
     data = json.load(json_file)
